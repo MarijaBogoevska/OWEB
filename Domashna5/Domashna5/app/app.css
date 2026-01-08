@@ -1,0 +1,13 @@
+.logo{
+    width: 500px;
+}
+.is-first{
+    scale: 120px;
+    color: yellow;
+}
+.is-last{
+    color: red;
+}
+.is-oddpar{
+    color: blue;
+}

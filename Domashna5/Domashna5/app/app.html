@@ -1,0 +1,13 @@
+<div>
+    <img class="logo" 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moto_Gp_logo.svg/2560px-Moto_Gp_logo.svg.png" 
+        alt="Moto_Gp_logo">
+</div>
+<div>
+    <app-vozac *ngFor="let moto of soferi; index as i; first as prv; last as posleden; odd as nepar" 
+    [motordzija]="moto" (click)="soul()"[indeks]="i+1" 
+    [class.is-first]="prv" [class.is-last]="posleden" [class.is-oddpar]="nepar"></app-vozac>    
+</div>
+
+
+//stiliziranje na vozac.html
